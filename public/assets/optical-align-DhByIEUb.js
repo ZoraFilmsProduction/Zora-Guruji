@@ -1,0 +1,1 @@
+var e={A:16,B:109,C:47,D:109,E:109,F:109,G:47,H:109,I:109,J:0,K:109,L:109,M:109,N:109,O:47,P:109,Q:47,R:109,S:47,T:31,U:94,V:16,W:16,X:31,Y:16,Z:63,Š:47,Č:47,Ć:47,Ž:63,0:16,1:94,2:16,3:16,4:16,5:31,6:31,7:16,8:31,9:31};function t(t){return e[t.trim().charAt(0).toLocaleUpperCase()]??0}function n(e){let n=t(e);return n?{marginLeft:`-${n/1e3}em`}:void 0}export{n as t};
